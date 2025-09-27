@@ -12,6 +12,7 @@ color: #4F9ACF;
 body {
     margin: 0 auto;
     width: 40%;
+    line-height: 1.5;
 }
 
 h1 {
@@ -19,14 +20,16 @@ h1 {
     text-align: center;
     font-size: 30px;
     font-family: Gilda Display;
+    letter-spacing: 3px;
 }
 
 h2 {
     text-align: center;
     border-bottom: 1px solid rgb(195, 195, 195);
-    color: rgb(75, 75, 250);
+    color: #006EB6;
     font-size: 15px;
     font-family: Gilda Display;
+    letter-spacing: 5px;
 }
 
 p {
@@ -44,7 +47,7 @@ li {
 
 img {
     display: block;
-    width: 100px;
+    width: 150px;
     height: auto;
     padding-top: 50px;
     margin: 0 auto;
