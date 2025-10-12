@@ -75,6 +75,10 @@ a:link, a:visited {
     border: none;
 }
 
+.hide {
+    display: none;
+}
+
 @media screen and (min-width: 700px) {
     img {
         grid-template-columns: 1fr 1fr;
