@@ -1,4 +1,4 @@
-const articles = [
+const books = [
 	{
 		id: 1,
 		title: 'Septimus Heap Book One: Magyk',
@@ -23,5 +23,32 @@ const articles = [
 		ages: '12-16',
 		genre: 'Fantasy',
 		stars: '⭐⭐⭐⭐'
+	},
+  {
+		id: 3,
+		title: "Belgariad Book One: Pawn of Prophecy",
+		date: "Feb 12, 2022",
+		description:
+		"A fierce dispute among the Gods and the theft of a powerful Orb leaves the World divided into five kingdoms. Young Garion, with his 'Aunt Pol' and an elderly man calling himself Wolf --a father and daughter granted near-immortality by one of the Gods -- set out on a complex mission.",
+		imgSrc:
+		"https://images-na.ssl-images-amazon.com/images/I/41ZxXA+nInL.jpg",
+		imgAlt: "Book cover for Pawn of Prophecy",
+		ages: "12-16",
+		genre: "Fantasy",
+		stars: "⭐⭐⭐⭐⭐"
 	}
-]
+];
+
+function bookTemplate(book) {
+    return `<p class="date" class="left-main">${book.date}</p>
+        <p class="left-main">${book.ages}</p>
+        <p class="left-main">${book.genre}</p>
+        <p class="left-main">${book.stars}</p>
+        <h2 class="mid-main">${book.title}</h2>
+        <img class="mid-main" src="${book.imgSrc}" alt="${book.imgAlt}">
+        <p class="mid-main">${book.description}</p>`
+};
+
+const htmlStrings = books.map(bookTemplate);
+
+document.querySelector(".book-list").innerHTML = htmlStrings.join("");
