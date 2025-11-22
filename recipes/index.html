@@ -5,9 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Recipes</title>
     <meta name="author" content="B Adams">
-    <meta name="description" content="Recipes website">
+    <meta name="description" content="A website that generates a random website">
     <link rel="stylesheet" href="recipes.css">
-    <script src="main.js" defer></script>
+    <script src="main.js" type="module"></script>
+    <meta property="og:title" content="Recipes">
+    <meta property="og:type" content="website" />
+    <meta property="og:description" content="A website that generates a random website">
+    <meta property="og:image" content="URL to an image">
+    <meta property="og:url" content="URL of the page">
+    <meta name="twitter:card" content="summary_large_image">
 </head>
 <body>
     <header>
@@ -20,32 +26,6 @@
             <button>
                 <img src="images/search.svg" alt="search icon">
             </button>
-        </div>
-        <div class="item">
-            <img src="images/apple-crisp.jpg" alt="Apple Crisp">
-            <div class="details">
-                <p class="type">
-                    dessert
-                </p>
-                <h2 class="name">
-                    Apple Crisp
-                </h2>
-                <span
-                    class="rating"
-                    role="img"
-                    aria-label="Rating: 4 out of 5 stars"
-                >
-                    <span aria-hidden="true" class="icon-star">⭐</span>
-                    <span aria-hidden="true" class="icon-star">⭐</span>
-                    <span aria-hidden="true" class="icon-star">⭐</span>
-                    <span aria-hidden="true" class="icon-star-empty">⭐</span>
-                    <span aria-hidden="true" class="icon-star-empty">☆</span>
-                </span>
-                <p class="hide">
-                    "This apple crisp recipe is a simple yet delicious fall 
-                    dessert that's great served warm with vanilla ice cream."
-                </p>
-            </div>
         </div>
     </main>
     <footer>

@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Lora:ital,wght@0,400..700;1,400..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
- :root {
+:root {
     --primary-color: #1B98E0;
     --secondary-color: #59c3c3;
     --text-dark: #333;
     --text-light: #ebebeb;
-    --primary-font: Arial, Helvetica,sans-serif;
+    --primary-font: Arial, Helvetica, sans-serif;
     --secondary-font: "Amatic SC";
 }
 
@@ -16,6 +16,7 @@ img {
 
 body {
     margin: 0;
+    font-family: var(--primary-font);
 }
 
 header {
@@ -27,7 +28,7 @@ header {
 
 header img {
     width: auto;
-    height: 4em 
+    height: 4em;
 }
 
 header h1 {
@@ -72,9 +73,10 @@ header h1 {
     flex-direction: column;
 }
 
-.type {
+.tags {
+    list-style: none;
     width: 4em;
-    padding: 5px;
+    padding: 0 5px 5px 5px;
     color: var(--text-dark);
     font-family: var(--primary-font);
     border: 1px solid var(--text-dark);
@@ -112,13 +114,13 @@ footer a {
     font-size: .75em;
 }
 
-.hide {
+.description {
     display: none;
 }
 
 @media screen and (min-width: 800px) {
-    .hide {
-        display: flex;
+    .description {
+        display: block;
     }
 
     .item {
