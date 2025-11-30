@@ -3,16 +3,20 @@
 <!DOCTYPE html>
 <html lang="en-us">
 	<head>
-		<meta charset="utf-8" />
+		<meta charset="UTF-8" />
 		<title>Site Plan</title>
-		<link type="text/css" rel="stylesheet" href="site-plan.css" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="description" content="A site of responsive images">
+		<meta name="author" content="B Adams">
+		<link rel="stylesheet" href="site-plan-styles.css">
+		<script src="responsive_img.js" defer></script>
 	</head>
 
 	<body>
 		<header>
-			<h1>[Site name] Site Plan</h1>
-			<h2>FirstName LastName</h2>
-			<h2>WDD 131-[section]</h2>
+			<h1>Ito Search Site Plan</h1>
+			<h2>B Adams</h2>
+			<h2>WDD 131-4</h2>
 			<!-- In the header above, add the name or your site, your name and class number. For example if you are in section 3 you would put WDD 131.03 -->
 		</header>
 		<main>
@@ -20,22 +24,25 @@
 			<hr />
 			<h2>Overview</h2>
 			<h3>Purpose</h3>
-			<p>[Your purpose here]</p>
+			<p>The purpose of this site would be to organize the books by Junji Ito. This will also add an option to search and 
+			have a brief description of the stories within them for ease of finding a specific story and which book it belongs in.</p>
 			<!-- change this -->
 
 			<h3>Audience</h3>
-			<p>[Your audience here]</p>
+			<p>The audience is myself and others who read/are interested in reading Junji Ito's works. 
+			This will make it easier for us to locate what we are looking for.</p>
 			<!-- change this -->
 
 			<h3>Dynamic elements</h3>
-			<p>[Describe dynamic elements provided by Javascript here]</p>
+			<p>JS would be used to grab random books to display, as well as have a search function for the books and stories. 
+			There also might be url search paramters served with JS.</p>
 			<!-- change this -->
 
 			<hr />
 			<h2>Branding</h2>
 			<h3>Website Logo</h3>
 			<!-- Replace this with some sort of logo for your site.  A logo can be as simple as the name of your site in a nice font :) -->
-			<img src="#" alt="Logo image" />
+			<img src="/personal-site/images/logo/logo-transparent.png" alt="Logo image" />
 			<hr />
 			<h2>Style Guide</h2>
 
@@ -47,9 +54,9 @@
 			<!-- Copy and paste the URL to your finished palette below Make sure to paste it into both spots -->
 			Palette URL:
 			<a
-				href="https://coolors.co/396e94-e7c24f-a43312-381d2a-aabd8c"
+				href="https://coolors.co/140513-fffbff-fe3432-993535-799496"
 				target="_blank"
-				>https://coolors.co/396e94-e7c24f-a43312-381d2a-aabd8c</a
+				>https://coolors.co/140513-fffbff-fe3432-993535-799496</a
 			>
 
 			<table class="colors">
@@ -59,13 +66,15 @@
 						<th>Secondary</th>
 						<th>Accent 1</th>
 						<th>Accent 2</th>
+						<th>Accent 3</th>
 					</tr>
 					<!-- Replace the numbers in the boxes below with your hex color codes. Then switch to the site-plan.css file and change your colors there as well. -->
 					<tr>
-						<td class="primary">[#396E94]</td>
-						<td class="secondary">[#E7C24F]</td>
-						<td class="accent1">[#A43312]</td>
-						<td class="accent2"></td>
+						<td class="primary">#140513</td>
+						<td class="secondary">#FFFBFF</td>
+						<td class="accent1">#FE3432</td>
+						<td class="accent2">#993535</td>
+						<td class="accent3">#799496</td>
 					</tr>
 				</tbody>
 			</table>
@@ -76,11 +85,11 @@
 			<!-- Choose a font for your paragraphs (body copy) and headlines. What font(s) have you chosen? Why did you choose what you did?  Make sure to review the list of web safe fonts at W3Schools.org as a starting point.  Think also about which of your colors above you might use for background and font colors. -->
 
 			<h4>
-				Heading Font: [Font Name here]
+				Heading Font: Bebas Neue
 				<!-- change this -->
 			</h4>
 			<h4>
-				Paragraph Font: [Font Name here]
+				Paragraph Font: Lato
 				<!-- change this -->
 			</h4>
 			<h3>Normal paragraph example</h3>
@@ -107,16 +116,23 @@
 			<!-- Think about how you want your navigation bar to look. In the site-plan.css file change the colors to your colors to get the look you desire. -->
 			<nav>
 				<a href="#">Home</a>
-				<a href="#">Page2</a>
-				<a href="#">Page3</a>
+				<a href="#">Library</a>
 			</nav>
 			<hr />
 
 			<h2>Content</h2>
 			<h3>Home page</h3>
-			<p>[content, images, data for the home page]</p>
-			<h3>[Page 2]</h3>
-			<p>[content, images, data for the subpage]</p>
+			<p>
+				<img src="/personal-site/images/ito-pf.jpg" alt="Junji Ito author picture">
+				<p>Welcome! This site is all about Junji Ito. This Japanese horror manga artist and 
+				creator has a large number of works, many of which have been officially translated 
+				and published in English. The goal of this site is provide a way to easily search 
+				for any of the books or stories, so that any who are interested in reading some of 
+				Junji Ito's creations can figure out exactly what they want!</p>
+			</p>
+			<h3>Library</h3>
+			<p>List of books with images, descriptions, etc: </p>
+			<a href="/personal-site/script.js">script file</a>
 			<h2>Wireframes</h2>
 			<p>
 				Create two wireframes for your site. One for each page and list them
