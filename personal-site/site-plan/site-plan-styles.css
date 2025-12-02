@@ -184,3 +184,12 @@ nav a:hover {
   border-top: 1px solid;
   border-right: 1px solid;
 }
+
+.libraryImages {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.libraryImages img {
+  max-width: 25%;
+}
