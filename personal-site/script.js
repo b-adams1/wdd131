@@ -15,7 +15,7 @@ const books = [
         description: "Four people intent on killing themselves meet through the suicide website Black Paradox: Maruso, a nurse who despairs about the future; Taburo, a man who is tortured by his doppelganger; Pii-tan, an engineer with his own robot clone; and Baracchi, a woman who agonizes about the birthmark on her face. They wander together in search of the perfect death, fatefully opening a door that leads them to a rather bizarre destiny…",
         imgSrc: "images/black-paradox.png",
         imgAlt: "Black Paradox cover",
-        stories: [],
+        stories: ["Black Paradox", "Strange Pavilion"],
     },
     {
         id: 3,
@@ -24,7 +24,7 @@ const books = [
         description: "A vengeful family hides an army deserter for eight years after the end of World War II, cocooning him in a false reality where the war never ended. A pair of girls look alike, but they’re not twins. And a boy’s nightmare threatens to spill out into the real world… This hauntingly strange story collection showcases a dozen of Junji Ito’s earliest works from when he burst onto the horror scene, sowing fresh seeds of terror.",
         imgSrc: "images/deserter.png",
         imgAlt: "Deserter cover",
-        stories: [],
+        stories: ["Bio House", "Face Thief", "Where the Sandman Lives", "The Devil's Logic", "The Long Hair in the Attic", "Scripted Love", "The Reanimator's Sword", "A Father's Love", "Unendurable Labyrinth", "Village of the Siren", "Bullied", "Deserter"],
     },
     {
         id: 4,
@@ -33,7 +33,7 @@ const books = [
         description: "A new collection of delightfully macabre tales from a master of horror manga. An old wooden mansion that turns on its inhabitants. A dissection class with a most unusual subject. A funeral where the dead are definitely not laid to rest. Ranging from the terrifying to the comedic, from the erotic to the loathsome, these stories showcase Junji Ito’s long-awaited return to the world of horror.",
         imgSrc: "images/fragments-of-horror.png",
         imgAlt: "Fragments of Horror cover",
-        stories: [],
+        stories: ["Futon", "Wooden Spirit", "Tomio * Red Turtleneck", "Gentle Goodbye", "Dissection-chan", "Blackbird", "Magami Nanakuse", "Whispering Woman", "Afterword"],
     },
     {
         id: 5,
@@ -42,7 +42,7 @@ const books = [
         description: "Junji Ito meets Mary Shelley! The master of horror manga bends all his skill into bringing the anguished and solitary monster—and the fouler beast who created him—to life with the brilliantly detailed chiaroscuro he is known for. Also included are six tales of Oshikiri—a high school student who lives in a decaying mansion connected to a haunted parallel world. Uncanny doppelgangers, unfortunately murdered friends, and a whole lot more are in store for him. Bonus: The Ito family dog! Thrill to the adventures of Non-non Ito, an adorable Maltese!",
         imgSrc: "images/frankenstein.png",
         imgAlt: "Frankenstein cover",
-        stories: [],
+        stories: ["Frankenstein", "Neck Specter", "Bog of Living Spirits", "Pen Pal", "Intruder", "The Strange Tale of Oshikiri", "The Strange Tale of Oshikiri: The Walls", "The Hell of the Doll Funeral", "Face Firmly in Place", "Boss Non-non", "Hide-and-Seek with Boss Non-non"],
     },
     {
         id: 6,
@@ -51,7 +51,7 @@ const books = [
         description: "The floating smell of death hangs over the island. What is it? A strange, legged fish appears on the scene... So begins Tadashi and Kaori's spiral into the horror and stench of the sea. Here is the creepiest masterpiece of horror manga ever from the creator of Uzumaki, Junji Ito. Hold your breath until all is revealed. Something's rotten in Okinawa...",
         imgSrc: "images/gyo.png",
         imgAlt: "Gyo cover",
-        stories: [],
+        stories: ["Gyo", "The Sad Tale of the Principal Post", "The Enigma of Amigara Fault"],
     },
     {
         id: 7,
@@ -60,7 +60,7 @@ const books = [
         description: "What destiny awaits them after the screaming? After abruptly departing from a train in a small town, a couple encounters a “weeping woman”—a professional mourner—sobbing inconsolably at a funeral. Mako changes afterward—she can’t stop crying! In another tale, having decided to die together, a couple enters Aokigahara, the infamous suicide forest. What is the shocking otherworldly torrent that they discover there? One of horror’s greatest talents, Junji Ito beckons readers to join him in an experience of ultimate terror with four transcendently terrifying tales.",
         imgSrc: "images/liminal-zone-1.png",
         imgAlt: "The Liminal Zone cover",
-        stories: [],
+        stories: ["Weeping Woman Way", "Madonna", "The Spirit Flow of Aokigahara", "Slumber"],
     },
     {
         id: 8,
@@ -69,7 +69,7 @@ const books = [
         description: "What fate awaits when death is not the end? A group of four university students stumbles upon a deserted, decaying village deep in the mountains only to find an enormous perpetual motion machine still at work there. Before they can answer the questions of who made it and to what end, the friends begin to disappear, one after the other. Another story sees the return of the strange Hikizuri siblings! A girl weighed down since birth by an invisible burden meets the odd siblings and moves in with them in order to understand the truth about herself. But after a string of bizarre occurrences, the siblings’ uncle appears on the scene…",
         imgSrc: "images/liminal-zone-2.png",
         imgAlt: "The Liminal Zone, Vol. 2 cover",
-        stories: [],
+        stories: ["Demon King of Dust", "Village of Ether", "The Strange Hikizuri Siblings: Uncle Ketanosuke", "The Shells of Manjunuma"],
     },
     {
         id: 9,
@@ -78,7 +78,7 @@ const books = [
         description: "Ryusuke returns to the town he once lived in because rumors are swirling about girls killing themselves after encountering a bewitchingly handsome young man. Harboring his own secret from time spent in this town, Ryusuke attempts to capture the beautiful boy and close the case, but… Starting with the strikingly bloody “Lovesickness,” this volume collects ten stories showcasing horror master Junji Ito in peak form, including “The Strange Hikizuri Siblings” and “The Rib Woman.”",
         imgSrc: "images/lovesickness.png",
         imgAlt: "Lovesickness cover",
-        stories: [],
+        stories: ["Lovesickness", "The Strange Hikizuri Siblings", "The Mansion of Phantom Pain", "The Rib Woman", "Memories of Real Poop"],
     },
     {
         id: 10,
@@ -87,7 +87,7 @@ const books = [
         description: "University student Mimi and her boyfriend Naoto encounter one chilling mystery after another. There’s the enigmatic neighbor woman dressed in black from head to toe—but if she’s so odd, why does it seems like there are many others like her? Then, whose eyes track Mimi’s movements from the cemetery next door? And why does a bizarre red circle drawn on a basement wall change with each passing day? Nine scary stories that really happened, drawn from the famed collecton of urban legends Shin Mimibukuro (New Earmuffs), and adapted into manga by horror genius Junji Ito!",
         imgSrc: "images/mimi's-tales-of-terror.png",
         imgAlt: "Mimi's Tales of Terror cover",
-        stories: [],
+        stories: ["The Utility Pole", "The Woman Next Door", "Rustling in the Grass", "Grave Placement", "Seashore", "Just the Two of Us", "Scarlet Circle", "Sign in the Field", "Monster Prop"],
     },
     {
         id: 11,
@@ -96,7 +96,7 @@ const books = [
         description: "A dark evil lurks in the unreachable depths of a pipe, groaning out moans that echo through the house of a germophobe mother and her daughters. In another tale, flowers blooming in the shape of eyeballs are only the beginning of the strange phenomena surrounding a mysterious transfer student. Could he have supernatural abilities? Also, a man in a village deep in the mountains shares memories of his wife. What happened to her after she said she would give freely of her blood? Legendary horror author Junji Ito presents six stories that will make your blood run cold!",
         imgSrc: "images/moan.png",
         imgAlt: "Moan cover",
-        stories: [],
+        stories: ["Supernatural Transfer Student", "Moan", "Blood Orb Grove", "Flesh-Colored Mystery", "Near Miss", "Under the Ground"],
     },
     {
         id: 12,
@@ -105,7 +105,7 @@ const books = [
         description: "Mine has been a life of much shame. I can’t even guess myself what it must be to live the life of a human being. Plagued by a maddening anxiety, the terrible disconnect between his own concept of happiness and the joy of the rest of the world, Yozo Oba plays the clown in his dissolute life, holding up a mask for those around him as he spirals ever downward, locked arm-in-arm with death. Osamu Dazai’s immortal—and supposedly autobiographical—work of Japanese literature, is perfectly adapted here into a manga by Junji Ito. The imagery wrenches open the text of the novel one line at a time to sublimate Yozo’s mental landscape into something even more delicate and grotesque. This is the ultimate in art by Ito, proof that nothing can surpass the terror of the human psyche.",
         imgSrc: "images/no-longer-human.png",
         imgAlt: "No Longer Human cover",
-        stories: [],
+        stories: ["No Longer Human"],
     },
     {
         id: 13,
@@ -114,7 +114,7 @@ const books = [
         description: "An unknown planet emerges from inside a wormhole, and its discoverer, Dr. Oguro, christens the body “Remina” after his own daughter. His finding is met with great fanfare, and Remina herself rises to fame. However, the object picks up speed as it moves along in its curious course, eliminating planets and stars one after another, until finally Earth itself faces extinction… Is the girl Remina the true cause of the catastrophe? A masterwork of horror from Junji Ito, unfolding on a universal scale.",
         imgSrc: "images/remina.png",
         imgAlt: "Remina cover",
-        stories: [],
+        stories: ["Remina"],
     },
     {
         id: 14,
@@ -123,7 +123,7 @@ const books = [
         description: "A woman walks alone at the foot of Mount Sengoku. A man appears, saying he’s been waiting for her, and invites her to a nearby village. Surprisingly, the village is covered in hairlike volcanic glass fibers, and all of it shines a bright gold. At night, when the villagers perform their custom of gazing up at the starry sky, countless unidentified flying objects come raining down on them—the opening act for the terror about to occur!",
         imgSrc: "images/sensor.png",
         imgAlt: "Sensor cover",
-        stories: [],
+        stories: ["Sensor"],
     },
     {
         id: 15,
@@ -132,7 +132,7 @@ const books = [
         description: "An arm peppered with tiny holes dangles from a sick girl’s window… After an idol hangs herself, balloons bearing the faces of their destined victims appear in the sky… An amateur film crew hires an extremely individualistic fashion model and faces a real bloody ending… An offering of nine fresh nightmares for the delectation of horror fans.",
         imgSrc: "images/shiver.png",
         imgAlt: "Shiver cover",
-        stories: [],
+        stories: ["Used Record", "Shiver", "Fashion Model", "Hanging Blimp", "Marionette Mansion", "Painter", "The Long Dream", "Honored Ancestors", "Greased", "Fashion Model: Cured Frame"],
     },
     {
         id: 16,
@@ -141,7 +141,7 @@ const books = [
         description: "Try not to be noticed when you eat the secret nectar, otherwise you’ll get smashed… What horrific events happened to create the earthbound—people tied to a certain place for the rest of their short lives? Then, a strange haunted house comes to town, but no one expects it to lead to a real hell… Welcome to Junji Ito’s world, a world with no escape from endless nightmares.",
         imgSrc: "images/smashed.png",
         imgAlt: "Smashed cover",
-        stories: [],
+        stories: ["Bloodsucking Darkness", "Ghosts of Prime Time", "Roar", "Earthbound", "Death Row Doorbell", "The Mystery of the Haunted House", "The Mystery of the Haunted House: Soichi's Version", "Soichi's Beloved Pet", "In Mirror Valley", "I Don't Want to Be a Ghost", "Library Vision", "Splendid Shadow Song", "Smashed"],
     },
     {
         id: 17,
@@ -150,7 +150,7 @@ const books = [
         description: "“I’ll get you for this… I’ll show you true horror!” Soichi, the unhinged second son of the Tsujii family, chews nails and makes them clatter and clack as he spouts horrific curses to bring about the most bizarre happenings. Whether it’s summer holidays or a birthday party, Soichi can turn any occasion into a nightmare in a heartbeat. What is the terrible secret of his origin? Meanwhile, tormented by his little brother’s never-ending pranks, older brother Koichi has a soundproof room built. But why does it have a series of four doors? And then there’s the strange phenomenon surrounding the handmade casket their grandfather left behind. What on earth—or hell—has the family seen there? Ten tales that celebrate the sinister and hilarious world of Junji Ito’s favorite antihero, Soichi!",
         imgSrc: "images/soichi.png",
         imgAlt: "Soichi cover",
-        stories: [],
+        stories: ["A Happy Summer Vacation", "A Happy Winter Vacation", "Soichi's Happy Diary", "Soichi's Home Visit", "Teacher of Cloth", "Soichi's Birthday", "Soichi's Petty Curses", "Four-Layered Room", "Coffin", "Rumors"],
     },
     {
         id: 18,
@@ -159,7 +159,7 @@ const books = [
         description: "A tumor shaped like a man’s face slowly moves across a woman’s body. The sea shoots glowing balls into the sky, much to the distress of beachgoers. And a girl dressed up for a holiday has no eyes, no nose, nothing—her face is a total blank. Hirokatsu Kihara pens true stories of unsolved mysteries, stitched together with page after page of Junji Ito’s original illustrations in this collection of nine eerie tales and a bonus manga story.",
         imgSrc: "images/stitches.png",
         imgAlt: "Stitches cover",
-        stories: [],
+        stories: ["Face", "Library", "From the Sea", "Festival of the Dead", "The Play", "Folk Dance", "The Kimono", "Snow Day", "Lips", "Summer Graduation Trip"],
     },
     {
         id: 19,
@@ -168,7 +168,7 @@ const books = [
         description: "Countless tombstones stand in rows throughout a small community, forming a bizarre tableau. What fate awaits a brother and sister after a traffic accident in this town of the dead? In another tale, a girl falls silent, her tongue transformed into a slug. Can a friend save her? Then, when a young man moves to a new town, he finds the house next door has only a single window. What does his grotesque neighbor want, calling out to him every evening from that lone window? Fresh nightmares brought to you by horror master Junji Ito.",
         imgSrc: "images/tombs.png",
         imgAlt: "Tombs cover",
-        stories: [],
+        stories: ["Tombs", "Clubhouse", "Slug Girl", "The Window Next Door", "Washed Ashore", "The Strange Tale of the Tunnel", "Bronze Statue", "Floaters", "The Bloody Story of Shirosuna"],
     },
     {
         id: 20,
@@ -177,7 +177,7 @@ const books = [
         description: "Tomie Kawakami is a femme fatale with long black hair and a beauty mark just under her left eye. She can seduce nearly any man, and drive them to murder as well, even though the victim is often Tomie herself. While one lover seeks to keep her for himself, another grows terrified of the immortal succubus. But soon they realize that no matter how many times they kill her, the world will never be free of Tomie.",
         imgSrc: "images/tomie.png",
         imgAlt: "Tomie cover",
-        stories: [],
+        stories: ["Tomie"],
     },
     {
         id: 21,
@@ -186,7 +186,7 @@ const books = [
         description: "A first-ever collection of Junji Ito’s artworks, featuring over 130 images from his bestselling manga titles along with rare works. This sublime collection includes all of Ito’s unforgettable illustrations in both black-and-white and color, from Tomie’s dreadful beauty to the inhuman spirals of Uzumaki. Includes an interview focused on Ito’s art technique as well as commentary from the artist on each work.",
         imgSrc: "images/twisted-visions.png",
         imgAlt: "Twisted Visions cover",
-        stories: [],
+        stories: ["Twisted Visions"],
     },
     {
         id: 22,
@@ -195,7 +195,7 @@ const books = [
         description: "Why are we drawn to fear? Horror manga legend Junji Ito has fascinated the world with his beautiful and strange tales, from his debut story “Tomie” to Uzumaki, Gyo, and many other famous works. In this professional memoir and horror manga analysis, he tells all and digs into dark recesses—reflections on influences from his childhood, thoughts on manga, next-level idea-generation techniques, character design, craftmanship, and more. Full of never-before-told insider anecdotes and behind-the-scenes stories, this is a must-have book for fans who want to immerse themselves completely in the world of Junji Ito.",
         imgSrc: "images/uncanny.png",
         imgAlt: "Uncanny cover",
-        stories: [],
+        stories: ["Uncanny"],
     },
     {
         id: 23,
@@ -204,7 +204,7 @@ const books = [
         description: "Kurouzu-cho, a small fogbound town on the coast of Japan, is cursed. According to Shuichi Saito, the withdrawn boyfriend of teenager Kirie Goshima, their town is haunted not by a person or being but a pattern: UZUMAKI, the spiral—the hypnotic secret shape of the world. The bizarre masterpiece horror manga is now available all in a single volume. Fall into a whirlpool of terror!",
         imgSrc: "images/uzumaki.png",
         imgAlt: "Uzumaki cover",
-        stories: [],
+        stories: ["Uzumaki"],
     },
     {
         id: 24,
@@ -213,7 +213,7 @@ const books = [
         description: "This striking collection presents the most remarkable short works of Junji Ito’s career, featuring an adaptation of Rampo Edogawa’s classic horror story “Human Chair” and fan favorite “The Enigma of Amigara Fault.” With a deluxe presentation—including special color pages, and showcasing illustrations from his acclaimed long-form manga No Longer Human—each chilling tale invites readers to revel in a world of terror.",
         imgSrc: "images/venus-in-the-blind-spot.png",
         imgAlt: "Venus in the Blind Spot cover",
-        stories: [],
+        stories: ["Billions Alone", "The Human Chair", "An Unearthly Love", "Venus in the Blind Spot", "The Licking Woman", "Master Umezz and Me", "How Love Came to Professor Kirida", "The Enigma of Amigara Fault", "The Sad Tale of the Principal Post", "Keepsake"],
     },
 ];
 
