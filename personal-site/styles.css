@@ -189,7 +189,7 @@ footer a {
     padding: .5em;
 }
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 1200px) {
 
     header img {
         width: 10%;
