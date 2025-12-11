@@ -233,4 +233,47 @@ function bookTemplate(book) {
             </div>`
 };
 
-document.querySelector(".bookCard").innerHTML = bookTemplate(randomBook)
+function bookTemplateLibrary(book) {
+    const storyOptions = book.stories.map(story => `<option>${story}</option>`).join("");
+    return `
+        <div class=bookCard>
+            <img src="${book.imgSrc}" alt="${book.imgAlt}">
+            <div class="bookInfo">
+                <p><strong>Title: </strong>${book.title}</p>
+                <p><strong>Date: </strong>${book.date}</p>
+                <p><strong>Description: </strong>${book.description}</p>
+                <select class="storiesDrop">
+                    <option value="">Stories: </option>
+                    ${storyOptions}
+                    </select>
+            </div>
+        </div>`
+};
+
+const bookCard = document.querySelector(".bookCard");
+if (bookCard) {
+    bookCard.innerHTML = bookTemplate(randomBook);
+}
+
+const library = document.querySelector(".bookCardLibrary");
+if (library) {
+    library.innerHTML = books.map(book => bookTemplateLibrary(book)).join("");
+}
+
+const searchInput = document.getElementById("bookSearch")
+
+searchInput.addEventListener("input", () => {
+    const query = searchInput.value.toLowerCase();
+    const filteredBooks = books.filter(book =>
+        book.title.toLowerCase().includes(query) ||
+        book.stories.some(story => story.toLowerCase().includes(query))
+    );
+    library.innerHTML = filteredBooks.map(book => bookTemplateLibrary(book)).join("");
+})
+
+const randomButton = document.getElementById("randomBookButton");
+
+randomButton.addEventListener("click", () => {
+    const randomBook = books[Math.floor(Math.random() * books.length)];
+    library.innerHTML = bookTemplateLibrary(randomBook);
+});

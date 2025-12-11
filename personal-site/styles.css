@@ -66,6 +66,42 @@ nav a:hover {
     background-color: var(--nav-hover-background-color);
 }
 
+.searchContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1em;
+    gap: 1em;
+}
+
+#bookSearch {
+    width: 80%;
+    padding: .5em 1em;
+    font-size: 1em;
+    border: 1px solid var(--primary-color);
+    border-radius: 5px;
+    outline: none;
+}
+
+#bookSearch:focus {
+    border-color: var(--accent1-color);
+}
+
+#randomBookButton {
+    margin-top: .5em;
+    padding: .5em 1em;
+    font-size: 1em;
+    background-color: var(--accent2-color);
+    color: var(--secondary-color);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#randomBookButton:hover {
+    background-color: var(--primary-color);
+}
+
 .bookCard {
     display: flex;
     flex-direction: column;
@@ -91,7 +127,18 @@ nav a:hover {
     font-size: 1em;
 }
 
+.bookCardLibrary {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    padding: 1em;
+    margin: 1em;
+    border: 3px solid var(--primary-color);
+    background-color: var(--secondary-color);
+}
+
 .storiesDrop {
+    width: 90%;
     margin: 2em;
     margin-top: 1em;
     margin-left: 1em;
@@ -100,14 +147,14 @@ nav a:hover {
 
 .aboutCard {
     display: flex;
-    flex-direction: row;
+    flex-direction: column-reverse;
     align-items: center;
     padding: 1em;
     gap: 2em;
 }
 
 .aboutCard img {
-    width: 33%;
+    width: 50%;
     height: fit-content;
     border: 1px solid var(--primary-color);
 }
@@ -149,12 +196,22 @@ footer a {
         margin-left: 1%;
     }
 
+    main {
+        margin: 8em;
+        margin-top: 0;
+        margin-bottom: 3em;
+    }
+
     .aboutCard {
         display: flex;
         flex-direction: column;
         align-items: center;
         padding: 1em;
         gap: 2em;
+    }
+
+    .aboutText {
+        margin: 2em;
     }
 
     body {
