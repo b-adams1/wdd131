@@ -226,8 +226,9 @@ function bookTemplate(book) {
                 <p><strong>Title: </strong>${book.title}</p>
                 <p><strong>Date: </strong>${book.date}</p>
                 <p><strong>Description: </strong>${book.description}</p>
+                <label for="stories"></label>
                 <select class="storiesDrop">
-                    <option value="">Stories: </option>
+                <option value="">Stories: </option>
                     ${storyOptions}
                     </select>
             </div>`
@@ -242,8 +243,9 @@ function bookTemplateLibrary(book) {
                 <p><strong>Title: </strong>${book.title}</p>
                 <p><strong>Date: </strong>${book.date}</p>
                 <p><strong>Description: </strong>${book.description}</p>
+                <label for="stories"></label>
                 <select class="storiesDrop">
-                    <option value="">Stories: </option>
+                <option value="">Stories: </option>
                     ${storyOptions}
                     </select>
             </div>
